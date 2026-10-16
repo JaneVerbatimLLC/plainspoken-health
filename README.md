@@ -1,50 +1,19 @@
-# Plainspoken Health and Community Initiative
+# Plainspoken Health & Community Initiative
 
-[![Website](https://img.shields.io/badge/Website-plainspoken.janeverbatimllc.online-blue)](https://plainspoken.janeverbatimllc.online)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+Website repository for Plainspoken Health & Community Initiative, a New York nonprofit in formation. It offers free financial literacy, civic education, and health navigation education in Flatbush, Brooklyn.
 
-Official website repository for **Plainspoken Health and Community Initiative**, a 501(c)(3) nonprofit organization.
+PHCI has not yet been recognized as tax-exempt by the IRS. Do not describe it as a 501(c)(3) anywhere on the site until the IRS determination letter has been received.
 
-## About
+Built as a static site and deployed with Cloudflare Pages.
 
-Plainspoken Health and Community Initiative provides accessible health education and community wellness programs. Our mission is to bridge gaps in health literacy and create equitable access to wellness resources.
+## Site settings
 
-## Website
+Edit the settings block at the bottom of `index.html`:
 
-- **Production URL:** https://plainspoken.janeverbatimllc.online
-- **Platform:** Cloudflare Pages
-- **Status:** 🟢 Live
-
-## Project Structure
-```/
-├── index.html # Homepage
-├── about.html # About us
-├── programs.html # Our programs
-├── donate.html # Donation page
-├── contact.html # Contact form
-├── css/
-│ └── styles.css # Custom styles
-├── js/
-│ └── main.js # Interactive features
-└── assets/
-    └── images/ # Photos and graphics```
-
-## Design System
-- **Primary Colors:** Navy blue (#1a365d), Rust orange (#c05621)
-- **Typography:** Accessible, readable fonts
-- **Accessibility:** WCAG 2.1 AA compliant
-## Deployment
-This site is automatically deployed via Cloudflare Pages when changes are pushed to the `main` branch.
-## Contributing
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
-
-## Contact
-
-- **Email:** info@plainspokenhealth.org
-- **Phone:** (680) 205-9814
-- **Address:** [721 Saratoga Avenue Brookyln, N.Y. 11212
+- `DONATIONS_LIVE` stays `false` until counsel clears fundraising and a PHCI bank account exists.
+- `DONATE_URL` is the hosted donation page link. Leave empty until live.
+- `IRS_DETERMINATION` becomes `true` only after the determination letter arrives. It switches the donate-page tax language.
 
 ## License
-Content © Plainspoken Health and Community Initiative. Code licensed under [MIT](LICENSE).
----
-*Plainspoken Health and Community Initiative is a registered 501(c)(3) nonprofit organization. All donations are tax-deductible.*
+
+Site code is available under the MIT License. Site text, names, logos, and curriculum materials are not covered by that license; all rights reserved.
