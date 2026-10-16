@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plainspoken Health &amp; Community Initiative</title>
+<meta name="description" content="Free, plain-language workshops on money, credit, voting, and health navigation for Caribbean and Black communities in Flatbush, Brooklyn. A New York nonprofit in formation.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#14284b; --ink:#1b2333; --gold:#e8a317; --gold-deep:#8a5d00;
+  --paper:#fbfaf7; --mist:#e9edf4; --line:#c9d1df;
+  --display:"Bricolage Grotesque","Trebuchet MS",system-ui,sans-serif;
+  --body:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;font:18px/1.6 var(--body);color:var(--ink);background:var(--paper)}
+a{color:var(--navy)}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+.status{background:var(--navy);color:#fff;font-size:15px;padding:10px 0}
+.status .wrap{display:flex;gap:8px 16px;flex-wrap:wrap;align-items:center}
+header.top{border-bottom:1px solid var(--line);background:#fff}
+header.top .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-top:14px;padding-bottom:14px;flex-wrap:wrap}
+.brand{font:800 20px/1.1 var(--display);color:var(--navy);text-decoration:none}
+nav{display:flex;gap:20px;flex-wrap:wrap;align-items:center}
+nav a{font-weight:600;text-decoration:none;font-size:16px}
+nav a:hover{text-decoration:underline}
+.btn{display:inline-block;background:var(--gold);color:var(--navy);font:600 17px/1 var(--body);padding:14px 22px;border-radius:6px;text-decoration:none;border:2px solid var(--gold)}
+.btn:hover{background:#f2b434}
+.btn.quiet{background:transparent;color:var(--navy);border-color:var(--navy)}
+.btn.quiet:hover{background:var(--mist)}
+nav .btn{padding:10px 16px;font-size:15px}
+.hero{padding:88px 0 72px}
+.hero h1{font:800 clamp(38px,6.4vw,72px)/1.04 var(--display);color:var(--navy);margin:0 0 24px;max-width:15ch;letter-spacing:-.02em}
+.hero p{max-width:56ch;font-size:21px;margin:0 0 32px}
+.hero .row{display:flex;gap:14px;flex-wrap:wrap}
+section{padding:64px 0}
+h2{font:800 clamp(28px,4vw,40px)/1.1 var(--display);color:var(--navy);margin:0 0 20px;letter-spacing:-.01em}
+.lede{max-width:60ch;margin:0 0 36px}
+.programs{display:grid;grid-template-columns:repeat(2,1fr);gap:0 56px}
+.programs div{padding:22px 0;border-top:3px solid var(--navy)}
+.programs h3{font:800 22px/1.2 var(--display);margin:0 0 8px;color:var(--navy)}
+.programs p{margin:0;font-size:17px}
+.band{background:var(--mist)}
+.two{display:grid;grid-template-columns:1.1fr 1fr;gap:56px;align-items:start}
+.note{border-left:5px solid var(--gold);padding:4px 0 4px 18px;margin:24px 0 0;font-size:17px}
+.support{background:var(--navy);color:#fff}
+.support h2{color:#fff}
+.support a{color:#fff}
+.support .btn{color:var(--navy)}
+.support .panel{background:#1d355f;border-radius:10px;padding:28px;max-width:640px}
+.support .fine{font-size:15px;color:#cfd8ea;margin:18px 0 0}
+footer{padding:40px 0 56px;font-size:15px;color:#46506a}
+footer p{max-width:70ch;margin:0 0 10px}
+@media (max-width:760px){
+  body{font-size:17px}
+  .hero{padding:56px 0 48px}
+  .programs,.two{grid-template-columns:1fr}
+  .programs{gap:0}
+  .two{gap:32px}
+  section{padding:48px 0}
+}
+</style>
+</head>
+<body>
+
+<div class="status">
+  <div class="wrap">
+    <span>Plainspoken Health &amp; Community Initiative is a New York nonprofit in formation. We have not yet been recognized as tax-exempt by the IRS.</span>
+  </div>
+</div>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top">Plainspoken Health &amp; Community Initiative</a>
+    <nav aria-label="Main">
+      <a href="#programs">Programs</a>
+      <a href="#partners">Partners</a>
+      <a href="#contact">Contact</a>
+      <a class="btn" href="#support" id="nav-support">Support our work</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero">
+    <div class="wrap">
+      <h1>Money, voting, and health care, explained plainly.</h1>
+      <p>We teach free workshops in Flatbush, Brooklyn on budgeting, credit, civic participation, and finding your way through health services. No jargon, no judgment, and nobody has to share their personal business.</p>
+      <div class="row">
+        <a class="btn" href="#contact">Bring a workshop to your group</a>
+        <a class="btn quiet" href="#programs">See what we teach</a>
+      </div>
+    </div>
+  </div>
+
+  <section id="programs" class="band">
+    <div class="wrap">
+      <h2>What we teach</h2>
+      <p class="lede">Every workshop is free for the people who attend. Participants follow a fictional character through real-life situations, so everyone learns without having to talk about their own finances or health.</p>
+      <div class="programs">
+        <div>
+          <h3>Budgeting</h3>
+          <p>Build a spending plan that fits your real income, from a first budget to a full intensive series.</p>
+        </div>
+        <div>
+          <h3>Credit</h3>
+          <p>What a credit score is, what moves it, and how to protect it from high-cost debt.</p>
+        </div>
+        <div>
+          <h3>Voting</h3>
+          <p>How local government shapes daily life, and how to register and vote. Strictly non-partisan.</p>
+        </div>
+        <div>
+          <h3>Medication &amp; Money</h3>
+          <p>How to find programs that help with the cost and access of care. This is education, not medical advice.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="partners">
+    <div class="wrap two">
+      <div>
+        <h2>Host us at your library, center, or congregation</h2>
+        <p>Partner organizations provide the room and gather the group. We bring the curriculum, worksheets, and facilitation. Hosting is offered at a flat community rate, and the people you serve always attend free.</p>
+        <p>Materials are available in English, Spanish, and Haitian Creole, in large print, and with ASL interpretation on request.</p>
+        <p><a class="btn" href="mailto:Veranthonilcampbell@gmail.com?subject=Hosting%20a%20workshop">Email us about hosting</a></p>
+      </div>
+      <div>
+        <p class="note"><strong>Non-partisan, always.</strong> We explain how voting and local government work. We never tell anyone who to vote for or endorse candidates or parties.</p>
+        <p class="note"><strong>Built in Flatbush.</strong> Our work is designed with and for Caribbean and Black communities in Brooklyn.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="support" class="support">
+    <div class="wrap">
+      <h2>Support our work</h2>
+      <div class="panel" id="support-panel"></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap two">
+      <div>
+        <h2>Get in touch</h2>
+        <p>Questions, partnership ideas, or interest in joining our community of supporters? Email Veranthoni "Vbouy" Campbell.</p>
+        <p><a href="mailto:Veranthonilcampbell@gmail.com">Veranthonilcampbell@gmail.com</a><br>Brooklyn, New York</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Plainspoken Health &amp; Community Initiative is a New York nonprofit in formation. It intends to apply for recognition of tax-exempt status under section 501(c)(3) of the Internal Revenue Code. Until that status is granted, gifts are not tax-deductible.</p>
+    <p>Plainspoken Health &amp; Community Initiative is independent of Jane Verbatim LLC.</p>
+    <p>&copy; 2026 Plainspoken Health &amp; Community Initiative. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+/* ---------- SITE SETTINGS: edit these, then commit ---------- */
+const DONATIONS_LIVE = false;      // keep false until counsel clears fundraising and the bank account exists
+const DONATE_URL = "";             // hosted donation page link; leave empty until live
+const IRS_DETERMINATION = false;   // set true ONLY after the IRS determination letter arrives
+const CONTACT = "Veranthonilcampbell@gmail.com";
+/* ------------------------------------------------------------ */
+
+(function () {
+  var panel = document.getElementById("support-panel");
+  var navBtn = document.getElementById("nav-support");
+  var listLink = "mailto:" + CONTACT + "?subject=Add%20me%20to%20the%20supporter%20list&body=Name%3A%0AHow%20I%27d%20like%20to%20help%3A";
+
+  if (DONATIONS_LIVE && DONATE_URL) {
+    var tax = IRS_DETERMINATION
+      ? "Plainspoken Health &amp; Community Initiative is recognized by the IRS as a 501(c)(3) organization. Your gift may be tax-deductible to the extent the law allows."
+      : "Gifts are not tax-deductible at this time. We are a nonprofit in formation and have not yet been recognized as tax-exempt by the IRS.";
+    panel.innerHTML =
+      "<p>Your gift keeps our workshops free for the people who attend.</p>" +
+      "<p><a class=\"btn\" href=\"" + DONATE_URL + "\" rel=\"noopener\">Give to our work</a></p>" +
+      "<p class=\"fine\">" + tax + "</p>";
+    navBtn.textContent = "Give";
+  } else {
+    panel.innerHTML =
+      "<p>We are not accepting donations yet. We are still completing our legal formation.</p>" +
+      "<p>If you would like to hear when we open, join the supporter list and we will email you once, when we are ready.</p>" +
+      "<p><a class=\"btn\" href=\"" + listLink + "\">Join the supporter list</a></p>" +
+      "<p class=\"fine\">Joining the list is not a pledge and does not commit you to give.</p>";
+  }
+})();
+</script>
+</body>
+</html>
